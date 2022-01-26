@@ -1,10 +1,10 @@
 function carregar() {
-  var msg = document.querySelector("div#msg");
-  var imagem = document.querySelector("div#imagem");
-  var data = new Date();
-  var hora = data.getHours();
-  var fundo = document.querySelector("body#fundo");
-  var fundosection = document.querySelector("section#fundo-section");
+  const msg = document.querySelector("div#msg");
+  const imagem = document.querySelector("div#imagem");
+  const data = new Date();
+  const hora = data.getHours();
+  const fundo = document.querySelector("body#fundo");
+  const fundosection = document.querySelector("section#fundo-section");
 
   msg.innerHTML = `<strong> Agora são ${hora} horas. </strong>`;
   if (hora >= 5 && hora < 12) {
