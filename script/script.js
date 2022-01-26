@@ -1,10 +1,12 @@
 function carregar() {
-  const msg = document.querySelector("div#msg");
-  const imagem = document.querySelector("div#imagem");
   const data = new Date();
   const hora = data.getHours();
+
+  const msg = document.querySelector("div#msg");
+  const imagem = document.querySelector("div#imagem");
   const fundo = document.querySelector("body#fundo");
   const fundoSection = document.querySelector("section#fundo-section");
+
   const imagemManha = "style/manha.jpg";
   const imagemTarde = "style/tarde.jpg";
   const imagemNoite = "style/noite.jpg";
